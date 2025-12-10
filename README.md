@@ -29,55 +29,6 @@ O objetivo é fornecer uma aplicação simples, moderna e eficiente para criar, 
 
 O projeto foi construído com componentes funcionais, Hooks, filtros inteligentes, sistema de busca e ordenação alfabética.
 
-🚀 Demonstração
-
-(Coloque aqui depois o link do GitHub Pages quando quiser publicar)
-
-📌 Funcionalidades
-✔ Criar novas tarefas
-
-Adicione título e categoria
-
-ID gerado automaticamente
-
-Inicia sempre como “não concluída”
-
-✔ Marcar e desmarcar como concluída
-
-Botão “Completar” alterna (true/false) o estado isCompleted
-
-✔ Remover tarefas
-
-Cada tarefa possui um botão “X” para excluir
-
-✔ Filtro por status
-
-All → Todas
-
-Completed → Apenas concluídas
-
-Incompleted → Apenas pendentes
-
-Trecho da lógica:
-
-.filter((todo) =>
-  filter === "All"
-    ? true
-    : filter === "Completed"
-    ? todo.isCompleted
-    : !todo.isCompleted
-)
-
-✔ Ordenação alfabética
-
-Botão Asc (A → Z)
-
-Botão Desc (Z → A)
-
-✔ Barra de busca
-
-Pesquisa em tempo real pelo título da tarefa
-
 🛠 Tecnologias utilizadas
 
 React.js
