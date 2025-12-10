@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-image: url(img/freepik__tempo-tempo-calendario-pressa-crowded-wall-of-tick__59583.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+   
+}
+
+.app{
+    background: #393939;
+    padding:  5px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    
+}
+h1{
+    text-align: center;
+
+}   
+
+p{
+    margin: 10px 0;
+}
+
+input{
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+button{
+    background-color: #071cd7;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    margin: 1px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: .8;
+    transition: all .3s ease ;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.todo{
+    background: #0dc7ce75;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.complete{
+    background: #68b028;
+}
+
+.remove{
+    background: #d9534f;
+}
+
+
+.toform{
+    margin-top: 10px;
+    padding-bottom: 1.2rem;
+    border-top: 2px solid #ccc;
+    margin-top: 1.2rem;
+    
+}
+
+input,select{
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-adicionar{
+    width: 100%;
+   
+}
+
+.filter, .search{
+    border-bottom: 1px solid #555;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+/* container das opções do filtro: empilha linhas */
+/* container das opções — AGORA lado a lado */
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 10px 0;
+}
+
+/* cada coluna (Status / Ordem A-Z) */
+.filter-row {
+  display: flex;
+  flex-direction: column;
+  width: 48%; /* garante lado a lado */
+}
+
+/* labels */
+.filter-row label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* select */
+.filter-select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.order-buttons .btn {
+  flex: 1; /* deixa botões igual tamanho */
+  background: #f74829;
+  margin: 0 5px;
+
+}
+
