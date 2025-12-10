@@ -20,3 +20,147 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0fc3a956-1e8f-46bd-820f-fb9aee0e9c75" />
+
+
+📝 To-Do List — React
+
+Este é um projeto de Lista de Tarefas (To-Do List) desenvolvido em React com Vite.
+O objetivo é fornecer uma aplicação simples, moderna e eficiente para criar, organizar, filtrar e concluir tarefas do dia a dia.
+
+O projeto foi construído com componentes funcionais, Hooks, filtros inteligentes, sistema de busca e ordenação alfabética.
+
+🚀 Demonstração
+
+(Coloque aqui depois o link do GitHub Pages quando quiser publicar)
+
+📌 Funcionalidades
+✔ Criar novas tarefas
+
+Adicione título e categoria
+
+ID gerado automaticamente
+
+Inicia sempre como “não concluída”
+
+✔ Marcar e desmarcar como concluída
+
+Botão “Completar” alterna (true/false) o estado isCompleted
+
+✔ Remover tarefas
+
+Cada tarefa possui um botão “X” para excluir
+
+✔ Filtro por status
+
+All → Todas
+
+Completed → Apenas concluídas
+
+Incompleted → Apenas pendentes
+
+Trecho da lógica:
+
+.filter((todo) =>
+  filter === "All"
+    ? true
+    : filter === "Completed"
+    ? todo.isCompleted
+    : !todo.isCompleted
+)
+
+✔ Ordenação alfabética
+
+Botão Asc (A → Z)
+
+Botão Desc (Z → A)
+
+✔ Barra de busca
+
+Pesquisa em tempo real pelo título da tarefa
+
+🛠 Tecnologias utilizadas
+
+React.js
+
+Vite
+
+JavaScript (ES6+)
+
+CSS
+
+Git & GitHub
+
+Hooks (useState)
+
+📁 Estrutura do Projeto
+src/
+ ├── components/
+ 
+ │    ├── Todo.jsx
+ 
+ │    ├── TodoForm.jsx
+ 
+ │    ├── Filter.jsx
+ 
+ │    ├── Search.jsx
+ 
+ ├── App.jsx
+ 
+ ├── App.css
+ 
+ ├── main.jsx
+ 
+index.html
+
+vite.config.js
+
+package.json
+
+▶ Como executar o projeto
+
+1. Clonar repositório
+   
+git clone https://github.com/Sayonnara/To-Do-List.git
+
+2. Acessar a pasta
+   
+cd To-Do-List
+
+3. Instalar dependências
+   
+npm install
+
+4. Executar
+
+   npm run dev
+
+
+O app abrirá em:
+
+👉 http://localhost:5173/
+
+🧠 O que aprendi desenvolvendo este projeto
+
+Criar um projeto React com Vite
+
+Como funcionam componentes funcionais
+
+Uso do useState para gerenciar estados
+
+Renderização de listas com .map()
+
+Filtragem avançada com .filter()
+
+Ordenação com .sort()
+
+Comunicação entre componentes (props)
+
+Organização de arquivos em React
+
+
+📄 Licença
+
+Este projeto é livre para estudo e modificações.
+
+🙋‍♀️ Feito por: Sayonnara Seixas
+
