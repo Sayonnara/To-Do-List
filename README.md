@@ -19,9 +19,6 @@ If you are developing a production application, we recommend using TypeScript wi
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/75a30915-db02-4bc1-b726-e98663514d19" />
 
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0fc3a956-1e8f-46bd-820f-fb9aee0e9c75" />
-
-
 📝 To-Do List — React
 
 Este é um projeto de Lista de Tarefas (To-Do List) desenvolvido em React com Vite.
